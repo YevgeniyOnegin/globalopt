@@ -1,8 +1,12 @@
 $(document).ready(function(){
     $('.reviews__carousel_content').slick( {
         centerMode: true,
+        variableWidth: false,
         centerPadding: '60px',
         slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: false,
+        arrows: true,
         responsive: [
           {
             breakpoint: 768,
@@ -24,4 +28,5 @@ $(document).ready(function(){
           }
         ]
     });
+    // $('.reviews__carousel_content').slick('setPosition');
 });
