@@ -1,6 +1,5 @@
 $(document).ready(function(){
     $('.reviews__carousel_content').slick( {
-        centerMode: true,
         variableWidth: false,
         centerPadding: '60px',
         slidesToShow: 1,
